@@ -11,7 +11,7 @@ public class NumberOfDigits{
             node++;
         }
         int div = (int)Math.pow(10,node-1);
-        while(n!=0){
+        while(div!=0){
             int q=n/div;
             System.out.println(q);
 

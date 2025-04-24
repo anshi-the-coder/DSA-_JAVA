@@ -24,6 +24,7 @@ public class PatternForM {
                 }
             }
             System.out.println();
+
         }
     }
 }

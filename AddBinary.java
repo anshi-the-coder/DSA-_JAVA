@@ -1,12 +1,15 @@
+import java.math.BigInteger;
+
 class Solution {
     public String addBinary(String a, String b) {
-     int num1 = Integer.parseInt(a, 2);
-        int num2 = Integer.parseInt(b, 2);
+        // Parse the binary strings using BigInteger
+        BigInteger num1 = new BigInteger(a, 2);
+        BigInteger num2 = new BigInteger(b, 2);
 
-        // Add the integers
-        int sum = num1 + num2;
+        // Add the numbers
+        BigInteger sum = num1.add(num2);
 
-        // Convert the sum back to a binary string
-        return Integer.toBinaryString(sum);
+        // Convert the result back to binary string
+        return sum.toString(2);
     }
-}   
+}

@@ -7,6 +7,7 @@ public class Pattern_4{
          int sp=0;
          int st=n;
          for(int i=1;i<=n;i++){
+            
             for(int j=1; j<=sp;j++){
                 System.out.print("\t");
             }

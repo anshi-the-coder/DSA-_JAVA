@@ -1,3 +1,9 @@
+//     *
+//    * *
+//   *   *
+//  *     *
+// *********
+
 public class HollowStarTriangle {
     public static void main(String[] args) {
         int n = 5; // height of the pyramid
